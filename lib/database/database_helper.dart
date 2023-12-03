@@ -17,7 +17,7 @@ class DatabaseHelper{
   }
 
   Future<Database> initDatabase() async{
-    final Directory directory  = await getApplicationCacheDirectory();
+    final Directory directory  = await getApplicationDocumentsDirectory();
     final path = join(directory.path,'sqlite_crud.db');
 
     await databaseExists(path);

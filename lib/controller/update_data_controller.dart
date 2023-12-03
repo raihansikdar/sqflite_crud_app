@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sqflite_crud_app/database/database_helper.dart';
 import 'package:sqflite_crud_app/model/data_list_model.dart';
